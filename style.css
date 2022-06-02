@@ -1,0 +1,81 @@
+/**
+ * A very basic CSS reset:
+ * More about CSS resets: https://meyerweb.com/eric/tools/css/reset/
+ */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/**
+ * Card sizing and positioning.
+ * Don't mess with this!
+ */
+.card {
+  width: 300px;
+  height: 540px;
+  margin: 40px auto 0 auto;
+}
+
+
+.card {
+  box-sizing: border-box;
+  background-color: #ffe163;
+  padding: 15px;
+  border-radius: 5px;
+  border-width: thick;
+  border-color: #ffe163;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.inner {
+  background-image: repeating-linear-gradient(180deg, #ffc832, #ffec28 15%, #ffc832 30%);
+  width: auto;
+  height: 510px;
+  padding: 15px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #896319;
+  border-radius: 5px;
+}
+
+.top {
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.silver-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  font-style: italic;
+  padding: 5px;
+  background-color: #f0f0f1;
+  border-radius: 5px;
+}
+
+.top-right{
+  justify-content: flex-end;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card.pokemon {
+  height: auto;
+  object-fit: contain;
+  display: lef;
+}
+
+.powers {
+  padding-top: 40px;
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
